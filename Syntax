@@ -1,0 +1,17 @@
+Basic syntax is: $(selector).action()
+
+(1)A $ sign to define/access jQuery
+(2)A (selector) to "query (or find)" HTML elements
+(3)A jQuery action() to be performed on the element(s)
+
+
+
+example:
+
+1.$(this).hide() - hides the current element.
+
+2.$("p").hide() - hides all <p> elements.
+
+3.$(".test").hide() - hides all elements with class="test".
+
+4.$("#test").hide() - hides the element with id="test".
